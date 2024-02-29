@@ -1,0 +1,14 @@
+body {
+    background-color: #5f8450;
+    color: #E2EED8;
+}
+
+p {
+    color: #5f8450;
+}
+
+footer {
+    border-top: solid #e2eed8;
+    padding: 20px;
+    text-align: center;
+}
