@@ -1,11 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=playfair+display-Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=lato&display=swap');
+
+:root {
+    --primary-color: #31493C;
+    --secondary-color: #E2EED8;
+    --accent1-color1: #18294B;
+    --accent-color2: #542805;
+    --accent-color3: #0A0A0A;
+    
+    --heading-font: 'playfair', serif;
+    --paragraph-font: 'lato', serif;
+
+    --nav-background-color: #;
+    --nav-link-color: #;
+    --nav-hover-link-color: #;
+    --nav-hover-background-color: #;
+}
 
 body {
-    font-family: var(--lato);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-{
+}
 
+body h1, h2, h3, h4 {
+    font-family: var(--playfair);
 
 body main {
     background-color: #e2eed8;
@@ -18,7 +36,7 @@ p {
 
 footer {
     border-top: solid #542805;
-    background-color: #0a0a0a
+    background-color: #0a0a0a;
     padding: 20px;
     text-align: center;
 }
