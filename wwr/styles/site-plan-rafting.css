@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=playfair+display-Lato&display=swap');
 
+body {
+    font-family: var(--lato);
+    max-width: 960px;
+    padding: 20px;
+{
+
 
 body main {
     background-color: #e2eed8;
