@@ -1,40 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=lato&display=swap');
-
 :root {
     --primary-color: #31493C;
     --secondary-color: #E2EED8;
-    --accent1-color1: #18294B;
+    --accent-color1: #18294B;
     --accent-color2: #542805;
     --accent-color3: #0A0A0A;
     
-    --heading-font: 'playfair', serif;
+    --heading-font: 'playfair Display', serif;
     --paragraph-font: 'lato', serif;
 
-    --nav-background-color: #;
-    --nav-link-color: #;
-    --nav-hover-link-color: #;
-    --nav-hover-background-color: #;
+    --nav-background-color: #31493C;
+    --nav-link-color: #E2EEd8;
+    --nav-hover-link-color: #18294B;
+    --nav-hover-background-color: #EEE;
+}
+
+main h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    font-family: var(--heading-font);
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color));
 }
 
 body {
     font-family: var(--paragraph-font);
+    background-color: var(--accent-color1);
     max-width: 960px;
     padding: 20px;
 }
 
-
-body main {
-    background-color: #e2eed8;
-    color: #31493c;
+body header {
+    color: var(--secondary-color);
 }
 
-p {
-    color: #31493c;
+body main{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px;
+}
+
+main p {
+    padding: 25px;
+    color: var(--primary-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 footer {
-    border-top: solid #542805;
-    background-color: #0a0a0a;
+    border-top: 20px solid var(--accent-color1);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     padding: 20px;
     text-align: center;
 }
