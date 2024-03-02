@@ -14,7 +14,7 @@
     --nav-hover-background-color: #EEE;
 }
 
-h1, h2, h3, h4, h5, h6 {
+main h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -28,7 +28,7 @@ header {
 
 body {
     font-family: var(--paragraph-font);
-    background-color: var(--accent-color1);
+    background-color: var(--accent1-color);
     max-width: 960px;
     padding: 20px;
 }
@@ -71,7 +71,7 @@ nav a:hover {
 }
 
 footer {
-    border-top: 20px solid var(--accent-color1);
+    border-top: 20px solid var(--accent1-color);
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 20px;
