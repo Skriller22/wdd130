@@ -1,9 +1,9 @@
 :root {
     --primary-color: #31493C;
     --secondary-color: #E2EED8;
-    --accent-color1: #18294B;
-    --accent-color2: #542805;
-    --accent-color3: #0A0A0A;
+    --accent1-color: #18294B;
+    --accent2-color: #542805;
+    --accent3-color: #0A0A0A;
     
     --heading-font: 'playfair Display', serif;
     --paragraph-font: 'lato', serif;
@@ -14,7 +14,7 @@
     --nav-hover-background-color: #EEE;
 }
 
-main h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
