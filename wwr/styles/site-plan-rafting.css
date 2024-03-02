@@ -23,7 +23,7 @@ header {
     font-family: var(--heading-font);
     padding: 20px;
     background-color: var(--primary-color);
-    color: var(--secondary-color));
+    color: var(--secondary-color);
 }
 
 body {
