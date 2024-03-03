@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap');
+
 :root {
     --primary-color: #31493C;
     --secondary-color: #E2EED8;
@@ -5,8 +7,8 @@
     --accent2-color: #542805;
     --accent3-color: #0A0A0A;
     
-    --heading-font: 'playfair Display', serif;
-    --paragraph-font: 'lato', serif;
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Lato', serif;
 
     --nav-background-color: #31493C;
     --nav-link-color: #E2EEd8;
