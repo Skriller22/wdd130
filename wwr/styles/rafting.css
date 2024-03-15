@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap');
+
+:root {
+    --primary-color: #31493C;
+    --secondary-color: #E2EED8;
+    --accent1-color: #18294B;
+    --accent2-color: #542805;
+    --accent3-color: #0A0A0A;
+    
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Lato', serif;
+
+    --nav-background-color: #31493C;
+    --nav-link-color: #E2EEd8;
+    --nav-hover-link-color: #18294B;
+    --nav-hover-background-color: #EEE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    background-color: var(--secondary-color);
+    max-width: 960px;
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+    margin: 10px auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+.hero h1 {
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 4px;
+}
+
+.hero article {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
+.hero article img {
+    width: 40%;
+    height: auto;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sociallinks img {
+    width: 35px;
+    height: 35px;
+}
