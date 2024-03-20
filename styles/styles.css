@@ -12,10 +12,21 @@ main {
 
 main p {
     padding: 3px;
+    margin-top: 1rem;
 }
 
 main ul {
     list-style-type: none;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #18294b;
+    padding: 2px;
+    box-shadow: 0 0 30px grey;
+    float: right;
+    margin-top: 1.5rem;
 }
 
 aside {
@@ -37,6 +48,11 @@ aside h2 {
     top: 30px;
     left: 180px;
     text-shadow: 2px 2px 2px #000;
+}
+
+aside div {
+    text-align: left;
+    margin: 1rem;
 }
 
 nav {
@@ -62,15 +78,6 @@ h1 {
     padding: 1rem;
 }
 
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid #18294b;
-    padding: 2px;
-    box-shadow: 0 0 30px grey;
-    float: right;
-}
-
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
@@ -88,8 +95,8 @@ footer {
 }
 
 .box {
-    margin: 1rem;
     padding: 1rem;
+    margin-top: 1rem;
 }
 
 .link {
@@ -97,7 +104,7 @@ footer {
     color: #e2eed8;
 }
 
-.link a{
+.link a {
     color: #e2eed8;
     text-decoration: none;
 }
