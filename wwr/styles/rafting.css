@@ -193,13 +193,14 @@ footer, footer p, footer nav, footer nav img{
 .adventure figure img {
     width: 175px;
     height: auto;
+    padding: 2px;
 }
 
 
 
 .hoverlink {
     background-color: var(--nav-background-color);
-    font-size: larger;
+    font-size: x-large;
 }
 
 .hoverlink a {
