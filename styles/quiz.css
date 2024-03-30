@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: #222;
+    background-color: #f0f0f0;
+}
+
+header {
+    width: 650px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.4rem;
+    color: #002300;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #e0e0e0;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #002300;
+    padding: 0.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+}
+
+label span {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+textarea {
+    height: 8rem;
+}
+
+footer {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #002300;
+    background-color: #f0f0f0;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: #002300;
+    color: #f0f0f0;
+    border: 0px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004400;
+}
