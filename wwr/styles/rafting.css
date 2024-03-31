@@ -389,7 +389,7 @@ form fieldset .newsletter {
     margin-left: auto;
 }
 
-form fieldset .send {
+form fieldset .submit {
 
     display: flex;
     justify-content: center;
@@ -397,9 +397,9 @@ form fieldset .send {
 
 }
 
-form fieldset .send input {
+form fieldset .submit button {
     width: 80%;
-    height: 60%;
+    height: 100%;
 
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -408,5 +408,4 @@ form fieldset .send input {
 
     padding: 15px;
     border-radius: 3px;
-    margin-top: -8px;
 }
