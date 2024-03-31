@@ -256,14 +256,14 @@ footer, footer p, footer nav, footer nav img{
 
     margin-bottom: 2rem;
 
-    img {
-        min-width: 200px;
-        max-width: 300px;
-        width: 20vw;
-        height: auto;
-        padding: 0.5rem;
-    }
+}
 
+.team .employee img {
+    min-width: 200px;
+    max-width: 300px;
+    width: 20vw;
+    height: auto;
+    padding: 0.5rem;
 }
 
 .box {
@@ -281,25 +281,26 @@ footer, footer p, footer nav, footer nav img{
 
     grid-template-rows: auto 1fr 1fr;
 
-    h2 {
-        text-align: center;
-        grid-row: 1;
-    }
+}
 
-    address {
-        grid-row: 2;
+.contact h2 {
+    text-align: center;
+    grid-row: 1;
 
-        width: 80%;
-        text-align: left;
-        margin-left: 1rem;
-        border-top: 1px solid var(--primary-color);
-        border-bottom: 1px solid var(--primary-color);
-    }
+}
 
-    address p {
-        margin: 1.2rem;
-        font-size: 1.1rem;
-    }
+.contact address {
+    grid-row: 2;
+
+    width: 80%;
+    text-align: left;
+    margin-left: 1rem;
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+.contact address p {
+    margin: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .map {
@@ -317,94 +318,93 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 11% 15% auto 15%;
+}
 
-    h2 {
-        grid-column: 1 / span 2;
-        margin-left: 1.5rem;
-    }
+form h2 {
+    grid-column: 1 / span 2;
+    margin-left: 1.5rem;
+}
 
-    .column1 {
-        grid-column: 1;
-    }
+form .column1 {
+    grid-column: 1;
+}
 
-    .column2 {
-        grid-column: 2;
-    }
+form .column2 {
+    grid-column: 2;
+}
 
-    fieldset {
-        margin: 10px;
+form fieldset {
+    margin: 10px;
 
-        display: flex;
-        flex-direction: column;
-    }
+    display: flex;
+    flex-direction: column;
+}
 
-    label {
-        font-size: large;
-        font-weight: bold;
-    }
+form label {
+    font-size: large;
+    font-weight: bold;
+}
+
+form input {
+    height: 100%;
+}
+
+form fieldset input {
+    background-color: var(--input-color);
+}
+
+form fieldset .purpose div {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+    form fieldset .purpose label, 
+    form fieldset .purpose div input {
+        margin-top: 3rem;
+    
+}
+
+
+form fieldset div input {
+    width: 2rem;
+    height: auto;
+
+}
+
+form textarea {
+    height: 100%;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.9rem;
+
+    background-color: var(--input-color);
+    border: 2px solid var(--primary-color);
+}
+
+form fieldset .newsletter {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+form fieldset .submit {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     input {
+        width: 100%;
         height: 100%;
+
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        font-size: larger;
+        font-weight: bold;
+
+        padding: 15px;
+        border-radius: 3px;
     }
-
-    fieldset input {
-        background-color: var(--input-color);
-    }
-
-    fieldset .purpose div {
-        display: flex;
-        gap: 10px;
-        flex-direction: row;
-    }
-        fieldset .purpose label, 
-        fieldset .purpose div input {
-            margin-top: 3rem;
-        
-    }
-
-
-    fieldset div input {
-        width: 2rem;
-        height: auto;
-
-    }
-
-    textarea {
-        height: 100%;
-        color: rgba(0, 0, 0, 0.4);
-        font-size: 0.9rem;
-
-        background-color: var(--input-color);
-        border: 2px solid var(--primary-color);
-    }
-
-    fieldset .newsletter {
-        display: flex;
-        flex-direction: row;
-        gap: 8px;
-
-        align-self: flex-end;
-        margin-left: auto;
-    }
-
-    fieldset .submit {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        input {
-            width: 100%;
-            height: 100%;
-
-            background-color: var(--primary-color);
-            color: var(--secondary-color);
-            font-size: larger;
-            font-weight: bold;
-
-            padding: 15px;
-            border-radius: 3px;
-        }
-    }
-
 }
