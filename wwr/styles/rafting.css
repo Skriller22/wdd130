@@ -89,7 +89,7 @@ footer {
     margin-top: 1rem;
 }
 
-footer, footer p, footer nav, footer nav img{
+footer, footer p, footer nav, footer nav img, footer p a {
     color: var(--secondary-color);
     background-color: var(--primary-color);
     
